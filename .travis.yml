@@ -18,4 +18,4 @@ install:
   - . $HOME/.nvm/nvm.sh
   - nvm install 7.8.0
   - npm install
-  - npm install jsdom
+  - npm install jsdom@9.12.0
