@@ -76,6 +76,6 @@ object SPAMain extends js.JSApp {
     import shared.SharedMessages
 
     dom.document.getElementById("scalajsShoutOut").textContent = SharedMessages.itWorks
-    dom.document.getElementById("scalajsShoutOut") = SharedMessages.itWorks
+    dom.document.getElementById("scalajsShoutOut").textContent = SharedMessages.itWorks
   }
 }
