@@ -16,7 +16,6 @@ cache:
     - $HOME/.sbt/boot/
 install:
   - . $HOME/.nvm/nvm.sh
-  - nvm install stable
-  - nvm use 7.8.0
+  - nvm install 7.8.0
   - npm install
   - npm install jsdom
