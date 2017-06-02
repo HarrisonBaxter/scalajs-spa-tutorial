@@ -1,3 +1,4 @@
+/*
 package spatutorial.client.services
 
 import diode.ActionResult._
@@ -104,3 +105,4 @@ object SPACircuitTests extends TestSuite {
     }
   }
 }
+*/

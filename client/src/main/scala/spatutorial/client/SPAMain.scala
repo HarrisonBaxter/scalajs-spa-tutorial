@@ -67,5 +67,15 @@ object SPAMain extends js.JSApp {
     val router = Router(BaseUrl.until_#, routerConfig)
     // tell React to render the router in the document body
     ReactDOM.render(router(), dom.document.getElementById("root"))
+
+    myChanges()
+  }
+
+  def myChanges() = {
+    import org.scalajs.dom
+    import shared.SharedMessages
+
+    dom.document.getElementById("scalajsShoutOut").textContent = SharedMessages.itWorks
+    dom.document.getElementById("scalajsShoutOut") = SharedMessages.itWorks
   }
 }
